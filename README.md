@@ -1,53 +1,59 @@
-# FlexPOS v3.0 — Sistema de Punto de Venta Inteligente y Confiable
+# FlexPOS v3.0 - Punto de Venta Local y Seguro
 
-Bienvenido al repositorio oficial de distribución de **FlexPOS v3.0**, la solución definitiva de punto de venta (POS) diseñada para ofrecer máxima velocidad, seguridad y estabilidad en la gestión diaria de su negocio. Desarrollado con tecnología de vanguardia y una arquitectura robusta, FlexPOS v3.0 combina la flexibilidad de una aplicación moderna con la confiabilidad de los sistemas de misión crítica.
+FlexPOS v3.0 es la solución definitiva de punto de venta (POS) de escritorio diseñada para operar de manera completamente autónoma y local, garantizando la continuidad de su negocio sin depender de una conexión a internet ni de suscripciones mensuales obligatorias. Desarrollado con tecnología moderna sobre Electron, ofrece una experiencia ágil, robusta y sumamente segura para la gestión diaria de comercios de cualquier escala.
 
----
-
-## 🌟 ¿Qué es FlexPOS v3.0?
-
-**FlexPOS v3.0** es una aplicación de escritorio de alto rendimiento (construida sobre Electron) que centraliza todas las operaciones comerciales de su establecimiento. Desde el registro rápido de ventas hasta el control minucioso del inventario y márgenes de ganancia, FlexPOS está diseñado para optimizar el flujo de trabajo de cajeros y administradores por igual, garantizando una experiencia de usuario fluida y libre de complicaciones.
+> [!IMPORTANT]
+> **Nota de Distribución:** Este repositorio no almacena el código fuente de la aplicación FlexPOS. Está destinado exclusivamente para hospedar los instaladores de distribución oficial, las notas de lanzamiento y los metadatos necesarios para el motor de actualizaciones automáticas de la aplicación de escritorio.
 
 ---
 
-## 🛡️ Beneficios Clave del Sistema
+## 🏆 Ventajas Clave del Cliente
 
-Diseñado bajo la filosofía de que su negocio nunca debe detenerse, FlexPOS v3.0 ofrece características de nivel empresarial para proteger su operación y sus datos:
-
-1. **Operación 100% Sin Conexión (Offline)**
-   * *¿Cómo le beneficia?* El sistema no depende de una conexión a internet para vender. Si su red se cae, puede seguir facturando, registrando pagos y atendiendo clientes con normalidad. Los datos se mantienen seguros localmente.
-2. **Integridad de Base de Datos y Transacciones**
-   * *¿Cómo le beneficia?* Cada venta, movimiento de inventario o pago se realiza bajo un esquema transaccional estricto. Esto significa que la información se guarda de forma completa y consistente, eliminando el riesgo de datos corruptos o registros a medias incluso ante un apagón repentino.
-3. **Seguridad Avanzada y Control de Roles**
-   * *¿Cómo le beneficia?* El acceso está protegido con mecanismos anti-fuerza bruta para evitar ingresos no autorizados. Además, cuenta con una segregación clara de perfiles (Administrador, Supervisor, Cajero), asegurando que solo el personal autorizado pueda aplicar descuentos, cancelar ventas o ver reportes financieros.
-4. **Bloqueo por Licencia (License Lock)**
-   * *¿Cómo le beneficia?* Garantiza la legitimidad y exclusividad de su software. Cada instalación se vincula de forma segura a su hardware, previniendo duplicaciones no autorizadas y asegurando que reciba el soporte oficial correspondiente.
-5. **Copias de Seguridad Automatizadas**
-   * *¿Cómo le beneficia?* El sistema genera respaldos automáticos de su base de datos de manera periódica. En caso de una falla en el equipo o pérdida de hardware, su información histórica estará a salvo y lista para ser restaurada.
+*   **100% Fuera de Línea (Offline):** El sistema funciona en su totalidad de manera local. Su negocio nunca se detendrá debido a fallas en el proveedor de internet.
+*   **Seguridad y Privacidad de Datos:** Toda la información comercial, catálogos y registros de ventas se almacenan de manera local en su propio hardware. Usted es el único dueño y custodio de sus datos comerciales.
+*   **Integridad de Datos Avanzada:** Implementación de transacciones a nivel de base de datos para asegurar que cada venta, movimiento de inventario y corte de caja se registren de forma consistente y sin pérdidas.
+*   **Respaldos Locales Automáticos:** Mecanismo integrado de copias de seguridad automáticas programadas que se almacenan de manera segura en unidades locales o externas definidas por el administrador.
+*   **Seguridad por Licencia de Hardware (HWID):** Protección avanzada mediante el enlazado de la licencia al identificador único de hardware de la máquina instalada, evitando duplicaciones no autorizadas y accesos indebidos.
+*   **Cero Mensualidades (Licencia de Pago Único):** Olvídese de rentas mensuales que merman el flujo de efectivo de su negocio. FlexPOS se adquiere mediante un único pago por licencia de equipo.
 
 ---
 
-## 📦 Módulos Principales del Sistema
+## ⚙️ Módulos Funcionales Centrales
 
-FlexPOS v3.0 organiza sus funciones en módulos intuitivos y de fácil acceso:
-
-* **🛒 Punto de Venta (Checkout):** Diseñado para la máxima velocidad en caja. Soporta métodos de pago divididos (ej. pago combinado en efectivo y tarjeta), cálculo automático de propinas, gestión de devoluciones en segundos y búsqueda rápida de productos.
-* **📊 Inventario y Márgenes:** Mantenga el control absoluto de sus productos. Conozca su stock en tiempo real, configure alertas automáticas de bajo inventario y visualice de forma clara sus costos, precios de venta y márgenes reales de ganancia.
-* **📝 Historial de Ventas y Auditoría:** Acceda al registro detallado de todas las transacciones históricas. Permite realizar búsquedas avanzadas por fecha o cajero, reimprimir comprobantes y consultar el registro de auditoría (*logs*) para validar cualquier operación crítica o inusual.
-* **⚙️ Ajustes y Vista Previa de Ticket:** Configure los datos de su negocio (nombre, NIT/RUT, teléfono, mensajes de pie de página). Diseñe y ajuste el formato visual de su ticket de venta con una vista previa digital en tiempo real antes de mandar a imprimir a su ticketera térmica.
+1.  **Punto de Venta (POS) con Pago Dividido:**
+    *   Soporte para cobros combinados en efectivo, tarjeta y transferencias en una misma transacción.
+    *   Búsqueda ultra rápida de productos por código de barras, clave o descripción.
+    *   Gestión de clientes frecuentes y descuentos directos sobre la venta.
+2.  **Inventario y Márgenes de Utilidad:**
+    *   Control preciso de existencias con alertas automáticas de stock mínimo.
+    *   Configuración dinámica de márgenes de utilidad deseados por producto o categoría.
+    *   Historial de entradas y salidas de mercancía detallado.
+3.  **Auditoría y Bitácora de Movimientos (Audit Trails):**
+    *   Registro estricto y no modificable de todas las acciones críticas en el sistema (cancelaciones, descuentos, aperturas de cajón, cambios de precio).
+    *   Facilidad de rastreo para administradores ante cualquier discrepancia.
+4.  **Control de Turnos Activos (Cortes de Caja):**
+    *   Registro de saldo inicial, entradas y salidas de efectivo justificadas durante el turno.
+    *   Arqueos rápidos y reportes de cierre de turno detallados por tipo de pago y cajero.
+5.  **Configuración Personalizada e Impresión de Tickets:**
+    *   Personalización completa de la información del ticket de compra (logotipo, datos fiscales, leyendas de garantía, redes sociales).
+    *   Compatibilidad nativa con impresoras térmicas de 58mm y 80mm vía comandos ESC/POS directos.
 
 ---
 
-## 🔄 ¿Cómo funcionan las Actualizaciones?
+## 🔄 Sistema de Actualizaciones Automáticas
 
-Este repositorio de GitHub funciona como el **Centro de Distribución Oficial** de FlexPOS v3.0. 
-
-Usted no necesita descargar archivos manualmente ni tener conocimientos técnicos para mantener su sistema al día. El proceso es sumamente sencillo:
-1. Cuando su equipo con FlexPOS cuente con conexión a internet, diríjase al módulo de **Ajustes**.
-2. Haga clic en la opción **Actualizaciones**.
-3. El sistema se comunicará automáticamente con este repositorio seguro, validará si existe una versión más reciente, y descargará el instalador o los metadatos necesarios de forma transparente.
-4. Tras una confirmación rápida, su sistema se actualizará a la versión más estable y segura disponible, asegurándole acceso inmediato a mejoras y corrección de errores.
+La aplicación de escritorio de FlexPOS incluye un motor de escaneo de actualizaciones configurado para auditar este repositorio público.
+*   **Mecanismo:** La aplicación realiza una petición segura y ligera de lectura a este repositorio para verificar la existencia de un archivo de metadatos de versión (`latest.yml` / `package.json` de distribución).
+*   **Descarga Segura:** Si detecta una nueva versión estable disponible, ofrece al usuario la descarga automática y la aplicación del parche de actualización sin interrumpir la operación local de la base de datos.
 
 ---
 
-*FlexPOS v3.0 — Potencia, seguridad y simplicidad para llevar su negocio al siguiente nivel.*
+## ⏳ Prueba Gratuita de 15 Días
+
+Le invitamos a evaluar el poder y la estabilidad de FlexPOS v3.0 sin compromisos:
+*   Descargue el instalador y comience una prueba con acceso a **todas las funcionalidades** durante 15 días consecutivos.
+*   Al finalizar el periodo de prueba, podrá activar la licencia definitiva mediante un código único de hardware (HWID) sin perder la información registrada durante su evaluación.
+
+---
+
+*Desarrollado y distribuido por **ADNova-Design**.*
